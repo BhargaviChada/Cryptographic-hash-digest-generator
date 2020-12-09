@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Crypto Hash Functions</title>
+</head>
+<body>
+  <div class="input">
+    <h1>Cryptographic Hash Digest Generator</h1>
+    <input type="text" class="data" placeholder="Enter data">
+    <select name="hashes" id="hash-option">
+      <option class="md5">MD-5</option>
+      <option class="sha1">SHA-1</option>
+      <option class="sha256">SHA-256</option>
+    </select>
+    <button class="btn">Generate Hash</button>
+  </div>
+  <div class="output">
+    <label for="output-textarea">Hash Value</label>
+    <textarea id="output-textarea"></textarea>
+  </div>
+  <script src="../script/app.js"></script>
+</body>
+</html>
